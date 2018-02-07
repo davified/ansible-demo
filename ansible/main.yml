@@ -1,0 +1,6 @@
+---
+- hosts: go_server
+  tasks:
+  - name: echo hello world
+    shell: echo 'hello world'
+  
