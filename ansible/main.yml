@@ -1,6 +1,6 @@
 ---
 - hosts: go_server
   tasks:
-  - name: echo hello world
-    shell: echo 'hello world'
+  - name: execute series of commands in another ansible play
+    include: otherfile.yml
   

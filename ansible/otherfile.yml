@@ -1,0 +1,8 @@
+- name: echo hello world
+  shell: echo 'hello world'
+
+- name: print date
+  shell: date
+
+- name: echo goodbye world
+  shell: echo 'goodbye world'
